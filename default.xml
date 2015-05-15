@@ -16,6 +16,9 @@
   <linkfile src="scripts/root-track-branch.sh" dest="track-branch.sh"/>
  </project>
 
+ <!-- arsdk product -->
+ <project name="drones/arsdk/products/arsdk" path="products/arsdk"/>
+
  <!-- ARSDK -->
  <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/arsdk/ARSDKBuildUtils"/>
  <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/arsdk/libARCommands"/>
