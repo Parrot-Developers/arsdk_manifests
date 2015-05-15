@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--parrot gerrit remote server -->
+ <remote name="gerrit" fetch="ssh://gerrit.parrot.biz" review="gerrit.parrot.biz"/>
+ <default remote="gerrit" revision="master" sync-j="4"/>
+
+ <!--build system -->
+ <project name="build/Alchemy" path="build/alchemy"/>
+
+ <!-- police -->
+ <project name="tools/police" path="build/police"/>
+
+ <!-- dragon base  -->
+ <project name="drones/dragon_base" path="products/dragon_base">
+  <linkfile src="scripts/root-build.sh" dest="build.sh"/>
+  <linkfile src="scripts/root-track-branch.sh" dest="track-branch.sh"/>
+ </project>
+
+ <!-- ARSDK -->
+ <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/arsdk/ARSDKBuildUtils"/>
+ <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/arsdk/libARCommands"/>
+ <project name="aftermarket/ARDroneSDK3/libARNetwork" path="packages/arsdk/libARNetwork"/>
+ <project name="aftermarket/ARDroneSDK3/libARSAL" path="packages/arsdk/libARSAL"/>
+ <project name="aftermarket/ARDroneSDK3/libARNetworkAL" path="packages/arsdk/libARNetworkAL" />
+ <project name="aftermarket/ARDroneSDK3/libARMedia" path="packages/arsdk/libARMedia"/>
+ <project name="aftermarket/ARDroneSDK3/libARDiscovery" path="packages/arsdk/libARDiscovery"/>
+ <project name="aftermarket/ARDroneSDK3/libARStream" path="packages/arsdk/libARStream" />
+ <project name="aftermarket/ARDroneSDK3/libARMavlink" path="packages/arsdk/libARMavlink"/>
+ <project name="aftermarket/ARDroneSDK3/ARBuildUtils" path="packages/arsdk/ARBuildUtils"/>
+ <!-- project name="aftermarket/ARDroneSDK3/libARAcademy" path="packages/arsdk/libARAcademy" /-->
+ <project name="aftermarket/ARDroneSDK3/libARRoadPlan" path="packages/arsdk/libARRoadPlan"/>
+
+ <!-- arsdk dependencies-->
+ <project name="aftermarket/Mykonos3/Tools" path="packages/tools" revision="dev-dragonfly-branch"/>
+ <project name="os/os_packages/external" path="packages/os-external"/>
+ <project name="drones/external/avahi" path="packages/avahi"/>
+ <project name="drones/external/libdaemon" path="packages/libdaemon"/>
+ <project name="drones/external/libnss-mdns" path="packages/libnss-mdns"/>
+
+</manifest>
