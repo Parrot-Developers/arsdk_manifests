@@ -4,21 +4,6 @@
  <remote name="gerrit" fetch="ssh://gerrit.parrot.biz" review="gerrit.parrot.biz"/>
  <default remote="gerrit" revision="master" sync-j="4"/>
 
- <!--build system -->
- <project name="build/Alchemy" path="build/alchemy"/>
-
- <!-- police -->
- <project name="tools/police" path="build/police"/>
-
- <!-- dragon base  -->
- <project name="drones/dragon_base" path="products/dragon_base">
-  <linkfile src="scripts/root-build.sh" dest="build.sh"/>
-  <linkfile src="scripts/root-track-branch.sh" dest="track-branch.sh"/>
- </project>
-
- <!-- arsdk product -->
- <project name="drones/arsdk/products/arsdk" path="products/arsdk"/>
-
  <!-- ARSDK -->
  <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/arsdk/ARSDKBuildUtils"/>
  <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/arsdk/libARCommands"/>
@@ -32,12 +17,5 @@
  <project name="aftermarket/ARDroneSDK3/ARBuildUtils" path="packages/arsdk/ARBuildUtils"/>
  <!-- project name="aftermarket/ARDroneSDK3/libARAcademy" path="packages/arsdk/libARAcademy" /-->
  <project name="aftermarket/ARDroneSDK3/libARRoadPlan" path="packages/arsdk/libARRoadPlan"/>
-
- <!-- arsdk dependencies-->
- <project name="aftermarket/Mykonos3/Tools" path="packages/tools" revision="dev-dragonfly-branch"/>
- <project name="os/os_packages/external" path="packages/os-external"/>
- <project name="drones/external/avahi" path="packages/avahi"/>
- <project name="drones/external/libdaemon" path="packages/libdaemon"/>
- <project name="drones/external/libnss-mdns" path="packages/libnss-mdns"/>
 
 </manifest>
