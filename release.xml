@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--parrot gerrit remote server -->
+ <remote name="gerrit" fetch="ssh://gerrit.parrot.biz" review="gerrit.parrot.biz"/>
+ <default remote="gerrit" revision="master" sync-j="4"/>
+
+ <project name="build/Alchemy" path="build/alchemy"/>
+ <project name="aftermarket/ARDroneSDK3/arsdk_products" path="products" revision="dcb6890fc72296dedcd98802ab5a2bf5dfd5e9d6"/>
+
+ <!-- External -->
+  <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools" revision="72968c8e1486d54592ca2a219d3ee53d9037fdff"/>
+
+ <!-- ARSDK -->
+ <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="5b82771196e654933d27d2e9353c1bf7e93610ac"/>
+ <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/libARCommands" revision="8fb002cdd57046cddd771cf4854ef0fba1d27b2b"/>
+ <project name="aftermarket/ARDroneSDK3/libARController" path="packages/libARController" revision="8d194dbf2b5b8b7df4939d17b112d556c22a66ac"/>
+ <project name="aftermarket/ARDroneSDK3/libARDataTransfer" path="packages/libARDataTransfer" revision="8ec1129d7bdd0c1079fffb7409c3c842e2585967"/>
+ <project name="aftermarket/ARDroneSDK3/libARDiscovery" path="packages/libARDiscovery" revision="0bcb3c30cc734db8796da7ef35445a9926549a9d"/>
+ <project name="aftermarket/ARDroneSDK3/libARMavlink" path="packages/libARMavlink" revision="edc7efd42da8f2ee5e0158487d47bfd163a72b72"/>
+ <project name="aftermarket/ARDroneSDK3/libARMedia" path="packages/libARMedia" revision="34db6db208e05306c9da07d6ef93e58ac6e0cd69"/>
+ <project name="aftermarket/ARDroneSDK3/libARNetwork" path="packages/libARNetwork" revision="6fea779a95aaf6c5fcf3d30b19c97d669c10b042"/>
+ <project name="aftermarket/ARDroneSDK3/libARNetworkAL" path="packages/libARNetworkAL" revision="b26a53d9627492a7b38787fc860ddbae30d0156a"/>
+ <project name="aftermarket/ARDroneSDK3/libARSAL" path="packages/libARSAL" revision="54adb6b140b5c0a4c9baac815caa4e17edca44b9"/>
+ <project name="aftermarket/ARDroneSDK3/libARStream" path="packages/libARStream"  revision="b33106194532e7d09819ce35b0981a866e3d207a"/>
+ <project name="aftermarket/ARDroneSDK3/libARUpdater" path="packages/libARUpdater" revision="ece16c7a27f56eb96711acac088a11d50cb455ec"/>
+ <project name="aftermarket/ARDroneSDK3/libARUtils" path="packages/libARUtils" revision="5f1915c1edc3989b1158ab796ea524a5737b401e"/>
+
+ <!-- Samples -->
+ <project name="aftermarket/ARDroneSDK3/Samples" path="packages/Samples"/>
+
+</manifest>
