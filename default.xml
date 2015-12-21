@@ -5,7 +5,9 @@
  <default remote="gerrit" revision="master" sync-j="4"/>
 
  <project name="build/Alchemy" path="build/alchemy"/>
- <project name="aftermarket/ARDroneSDK3/arsdk_products" path="products"/>
+ <project name="aftermarket/ARDroneSDK3/arsdk_products" path="products">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+ </project>
 
  <!-- External -->
   <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools"/>
