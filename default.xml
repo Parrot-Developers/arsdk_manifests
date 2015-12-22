@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!--parrot gerrit remote server -->
- <remote name="gerrit" fetch="ssh://gerrit.parrot.biz" review="gerrit.parrot.biz"/>
- <default remote="gerrit" revision="master" sync-j="4"/>
+ <!--parrot github remote server -->
+ <remote name="github" fetch="https://github.com/Parrot-Developers/"/>
+ <default remote="github" revision="master" sync-j="4"/>
 
- <project name="build/Alchemy" path="build/alchemy"/>
- <project name="aftermarket/ARDroneSDK3/arsdk_products" path="products">
+ <project name="alchemy" path="build/alchemy"/>
+ <project name="arsdk_products" path="products">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
  </project>
 
  <!-- External -->
-  <project name="aftermarket/ARDroneSDK3/ARSDKTools" path="packages/ARSDKTools"/>
+  <project name="ARSDKTools" path="packages/ARSDKTools"/>
 
  <!-- ARSDK -->
- <project name="aftermarket/ARDroneSDK3/ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
- <project name="aftermarket/ARDroneSDK3/libARCommands" path="packages/libARCommands"/>
- <project name="aftermarket/ARDroneSDK3/libARController" path="packages/libARController"/>
- <project name="aftermarket/ARDroneSDK3/libARDataTransfer" path="packages/libARDataTransfer"/>
- <project name="aftermarket/ARDroneSDK3/libARDiscovery" path="packages/libARDiscovery"/>
- <project name="aftermarket/ARDroneSDK3/libARMavlink" path="packages/libARMavlink"/>
- <project name="aftermarket/ARDroneSDK3/libARMedia" path="packages/libARMedia"/>
- <project name="aftermarket/ARDroneSDK3/libARNetwork" path="packages/libARNetwork"/>
- <project name="aftermarket/ARDroneSDK3/libARNetworkAL" path="packages/libARNetworkAL" />
- <project name="aftermarket/ARDroneSDK3/libARSAL" path="packages/libARSAL"/>
- <project name="aftermarket/ARDroneSDK3/libARStream" path="packages/libARStream" />
- <project name="aftermarket/ARDroneSDK3/libARUpdater" path="packages/libARUpdater"/>
- <project name="aftermarket/ARDroneSDK3/libARUtils" path="packages/libARUtils"/>
+ <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
+ <project name="libARCommands" path="packages/libARCommands"/>
+ <project name="libARController" path="packages/libARController"/>
+ <project name="libARDataTransfer" path="packages/libARDataTransfer"/>
+ <project name="libARDiscovery" path="packages/libARDiscovery"/>
+ <project name="libARMavlink" path="packages/libARMavlink"/>
+ <project name="libARMedia" path="packages/libARMedia"/>
+ <project name="libARNetwork" path="packages/libARNetwork"/>
+ <project name="libARNetworkAL" path="packages/libARNetworkAL" />
+ <project name="libARSAL" path="packages/libARSAL"/>
+ <project name="libARStream" path="packages/libARStream" />
+ <project name="libARStream2" path="packages/libARStream2" />
+ <project name="libARUpdater" path="packages/libARUpdater"/>
+ <project name="libARUtils" path="packages/libARUtils"/>
 
  <!-- Samples -->
- <project name="aftermarket/ARDroneSDK3/Samples" path="packages/Samples"/>
+ <project name="Samples" path="packages/Samples"/>
 
 </manifest>
