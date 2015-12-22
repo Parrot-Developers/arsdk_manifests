@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!--parrot github remote server -->
- <remote name="github" fetch="https://github.com/Parrot-Developers/"/>
- <default remote="github" revision="master" sync-j="4"/>
-
- <project name="alchemy" path="build/alchemy"/>
- <project name="arsdk_products" path="products">
-    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
- </project>
-
- <!-- External -->
-  <project name="ARSDKTools" path="packages/ARSDKTools"/>
-
- <!-- ARSDK -->
- <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
- <project name="libARCommands" path="packages/libARCommands"/>
- <project name="libARController" path="packages/libARController"/>
- <project name="libARDataTransfer" path="packages/libARDataTransfer"/>
- <project name="libARDiscovery" path="packages/libARDiscovery"/>
- <project name="libARMavlink" path="packages/libARMavlink"/>
- <project name="libARMedia" path="packages/libARMedia"/>
- <project name="libARNetwork" path="packages/libARNetwork"/>
- <project name="libARNetworkAL" path="packages/libARNetworkAL" />
- <project name="libARSAL" path="packages/libARSAL"/>
- <project name="libARStream" path="packages/libARStream" />
- <project name="libARStream2" path="packages/libARStream2" />
- <project name="libARUpdater" path="packages/libARUpdater"/>
- <project name="libARUtils" path="packages/libARUtils"/>
-
- <!-- Samples -->
- <project name="Samples" path="packages/Samples"/>
-
+  <remote fetch="https://github.com/Parrot-Developers/" name="github"/>
+  
+  <default remote="github" revision="master" sync-j="4"/>
+  
+  <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="1f832c309bd7bdcef952bf8a562671b412e5f75f"/>
+  <project name="ARSDKTools" path="packages/ARSDKTools" revision="72968c8e1486d54592ca2a219d3ee53d9037fdff"/>
+  <project name="Samples" path="packages/Samples" revision="64006e3b17528052a2a30653a09a16bf9ee8ca63"/>
+  <project name="alchemy" path="build/alchemy" revision="bc6c89387c14bdabdfc92d800e20249241fa08cd"/>
+  <project name="arsdk_products" path="products" revision="dcb6890fc72296dedcd98802ab5a2bf5dfd5e9d6">
+    <linkfile dest="build.sh" src="common/scripts/build.sh"/>
+  </project>
+  <project name="libARCommands" path="packages/libARCommands" revision="8f7c71fca1c0f8c4214318630801f11c2f786f1d"/>
+  <project name="libARController" path="packages/libARController" revision="97450f4c3dff7674e0a4669e681adeb980cf23c1"/>
+  <project name="libARDataTransfer" path="packages/libARDataTransfer" revision="8ec1129d7bdd0c1079fffb7409c3c842e2585967"/>
+  <project name="libARDiscovery" path="packages/libARDiscovery" revision="7fc53c060b9a3556d71958fc2fcb9a9274cecdac"/>
+  <project name="libARMavlink" path="packages/libARMavlink" revision="d375d0d3268d472487e2467f7bdd1c675212ef8f"/>
+  <project name="libARMedia" path="packages/libARMedia" revision="34db6db208e05306c9da07d6ef93e58ac6e0cd69"/>
+  <project name="libARNetwork" path="packages/libARNetwork" revision="6fea779a95aaf6c5fcf3d30b19c97d669c10b042"/>
+  <project name="libARNetworkAL" path="packages/libARNetworkAL" revision="011f2dab96095cda3fe615b0252421122f9c94be"/>
+  <project name="libARSAL" path="packages/libARSAL" revision="500e79f5dee4db70d69c060476439c0aabf2cab0"/>
+  <project name="libARStream" path="packages/libARStream" revision="b33106194532e7d09819ce35b0981a866e3d207a"/>
+  <project name="libARStream2" path="packages/libARStream2" revision="1ef3afd44830f65f9f004375da6b176449dd65f9"/>
+  <project name="libARUpdater" path="packages/libARUpdater" revision="ece16c7a27f56eb96711acac088a11d50cb455ec"/>
+  <project name="libARUtils" path="packages/libARUtils" revision="5f1915c1edc3989b1158ab796ea524a5737b401e"/>
 </manifest>
