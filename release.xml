@@ -11,8 +11,8 @@
   <project name="arsdk_products" path="products" revision="696e9d6639d8f5bdd930d590b3d5365e71b27cbe">
     <linkfile dest="build.sh" src="common/scripts/build.sh"/>
   </project>
-  <project name="libARCommands" path="packages/libARCommands" revision="aeeb68510e5581fa6c059eb036331f8b948642fa"/>
-  <project name="libARController" path="packages/libARController" revision="237f54065374d8efa15b220b897d53651cd7ec35"/>
+  <project name="libARCommands" path="packages/libARCommands" revision="5898658a925245555153459ea4684aa87f220e07"/>
+  <project name="libARController" path="packages/libARController" revision="a7725a9957529bf2ae5564bc08e868f1e35f8a97"/>
   <project name="libARDataTransfer" path="packages/libARDataTransfer" revision="9abe9bf2718b2d2a8ac48730d4ffcef61ec05f5b"/>
   <project name="libARDiscovery" path="packages/libARDiscovery" revision="928581a32daf0e5d63ec93bcddd16e8f7b329791"/>
   <project name="libARMavlink" path="packages/libARMavlink" revision="d34ac70485c5f113132e148e82d1ae06ae3892dc"/>
