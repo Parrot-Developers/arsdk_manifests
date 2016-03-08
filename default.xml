@@ -33,6 +33,7 @@
  <project name="libARStream2" path="packages/libARStream2" />
  <project name="libARUpdater" path="packages/libARUpdater"/>
  <project name="libARUtils" path="packages/libARUtils"/>
+ <project name="arsdk-xml" path="packages/arsdk-xml"/>
 
  <project name="mavlink.git" path="packages/mavlink"/>
 
