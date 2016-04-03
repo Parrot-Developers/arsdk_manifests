@@ -50,7 +50,7 @@ It is fully compatible with the versions :
 
 Usage
 -------------
-Please read [the install documentation](https://github.com/ARDroneSDK3/Docs/blob/master/Installation/INSTALL)
+Please read [the install documentation](https://github.com/Parrot-Developers/Docs/blob/master/Installation/INSTALL.md)
 
 Questions
 ----
