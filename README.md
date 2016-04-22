@@ -32,25 +32,25 @@ The SDK provides the source code you need to do everything provided by the freef
 
 <br>
 
-**The easiest way to control a drone is to create a device controller thanks to the [libARController](https://github.com/Parrot-Developers/libARController)**. This lib is quite new, we are still working hard on it. It is still in **beta state**, but you can use it. Samples which use this new API are available : [JSPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/Unix/JSPilotingNewAPI) for Unix, [RSPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/iOS/RSPilotingNewAPI) and [BebopPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/iOS/BebopPilotingNewAPI) for iOS and [BebopPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/Android/BebopPilotingNewAPI) for Android. This library is quite slow to compile for the moment, we are working on it :)
+**The easiest way to control a drone is to create a device controller thanks to the [libARController](https://github.com/Parrot-Developers/libARController)**. Samples which use this new API are available : [iOS Sample](https://github.com/Parrot-Developers/Samples/tree/master/iOS/SDKSample), [Android Sample](https://github.com/Parrot-Developers/Samples/tree/master/Android), [JSPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/Unix/JSPilotingNewAPI) and [BebopPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/Unix/BebopPilotingNewAPI) for Unix.
 
 It's BSD license allows to use, change, distribute with no restriction.
 Contributions and new feature discussions are highly appreciated.
 
 
-**The latest release version is tagged ARSDK3_version_3_8_3**. This version of the SDK is the one used in the 3.8 versions of FreeFlight 3. <br/>
+**The latest release version is tagged ARSDK3_version_3_9_0**. This version of the SDK is the one used in the 3.9 versions of FreeFlight 3. <br/>
 It is fully compatible with the versions :
 
-* 2.0.57 and later for the Bebop drone
-* 3.0.2 and later for the Bebop 2
+* 3.2.0 and later for the Bebop drone
+* 3.2.0 and later for the Bebop 2
 * 1.99.2 for the Rolling Spider
-* 2.1.7 for the Airbornes
+* 2.1.55 for the Airbornes
 * 1.99.0 for the Jumping Sumo
-* 2.1.5 for the Jumping Sumo Evos
+* 2.1.53 for the Jumping Sumo Evos
 
 Usage
 -------------
-Please read [the install documentation](https://github.com/ARDroneSDK3/Docs/blob/master/Installation/INSTALL)
+Please read [the install documentation](http://developer.parrot.com/docs/bebop/#go-deeper)
 
 Questions
 ----
