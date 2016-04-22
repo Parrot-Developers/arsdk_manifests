@@ -4,13 +4,18 @@
  <remote name="github" fetch="https://github.com/Parrot-Developers/"/>
  <default remote="github" revision="master" sync-j="4"/>
 
- <project name="alchemy" path="build/alchemy"/>
- <project name="arsdk_products" path="products">
-    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+<!-- dragon build  -->
+ <project name="dragon_build" path="build/dragon_build">
+    <linkfile src="root-build.sh" dest="build.sh"/>
+    <linkfile src="root-track-branch.sh" dest="track-branch.sh"/>
  </project>
+ <project name="Alchemy" path="build/alchemy"/>
+
+ <!-- products  -->
+ <project name="arsdk_products" path="products/arsdk"/>
 
  <!-- External -->
-  <project name="ARSDKTools" path="packages/ARSDKTools"/>
+ <project name="ARSDKTools" path="packages/ARSDKTools"/>
 
  <!-- ARSDK -->
  <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
@@ -28,6 +33,8 @@
  <project name="libARStream2" path="packages/libARStream2" />
  <project name="libARUpdater" path="packages/libARUpdater"/>
  <project name="libARUtils" path="packages/libARUtils"/>
+
+ <project name="mavlink.git" path="packages/mavlink"/>
 
  <!-- Samples -->
  <project name="Samples" path="packages/Samples"/>
