@@ -4,18 +4,18 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="ARSDK3" path="packages/ARSDK3" revision="43234277154eb570941120816480f981e864417a"/>
+  <project name="ARSDK3" path="packages/ARSDK3" revision="1a5d749e726fdb43459460ca54f67f1e60cb1f10"/>
   <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="e09be5d25a0dc08a92da3e60e85c9ea1695d355f"/>
   <project name="ARSDKTools" path="packages/ARSDKTools" revision="d45cbd43e3883a03ea37675186ef16457ed1d9fc"/>
   <project name="Alchemy" path="build/alchemy" revision="71d609ca5e21692c7a4c68a51f3fee73077528ed"/>
-  <project name="Samples" path="packages/Samples" revision="f498a899ae182f47f62a272c8dcb36edb3b6cbc2"/>
+  <project name="Samples" path="packages/Samples" revision="1f3eda1e3a756b1939e8d0762aba0390a09adec4"/>
   <project name="arsdk_products" path="products/arsdk" revision="a8ed15378cfc116ce10ba831b204248eed7d2bc7"/>
   <project name="dragon_build" path="build/dragon_build" revision="634498a30c1a96a95c37d05e6b211a2372cba2ee">
     <linkfile dest="build.sh" src="root-build.sh"/>
     <linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
   </project>
   <project name="libARCommands" path="packages/libARCommands" revision="7b5cf7a8009278cf634ee33d5c2ed5dd8e573eb4"/>
-  <project name="libARController" path="packages/libARController" revision="5157b6cae13b9c1bf90907b97179797e299f35ac"/>
+  <project name="libARController" path="packages/libARController" revision="1d11b3ffe89f8b166e2ba508373fcfd6ef990128"/>
   <project name="libARDataTransfer" path="packages/libARDataTransfer" revision="d64049557c0ab08917803807cc7d29313d5187ae"/>
   <project name="libARDiscovery" path="packages/libARDiscovery" revision="f79caf6533d2444d9d75e92508ec7c4b195641db"/>
   <project name="libARMavlink" path="packages/libARMavlink" revision="a8849da9d55084e6b379e98d037ea2ccff8e26b8"/>
