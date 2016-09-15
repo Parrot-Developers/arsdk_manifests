@@ -1,11 +1,14 @@
 ARDroneSDK3
 ===============
 
-**Welcome to the Software Development Kit for Parrot Drones Version 3.**
+**Welcome to the Software Development Kit for Parrot Drones.**
 
 It can be used to write applications which control the latest generation of Parrot Drones:
+- Disco
 - Bebop Drone
 - Bebop 2
+- Mambo
+- Swing
 - Rolling Spider
 - Airborne Night
 - Airborne Cargo
@@ -14,6 +17,7 @@ It can be used to write applications which control the latest generation of Parr
 - Jumping Night
 - Jumping Race
 - Skycontroller
+- SkyController 2
 
 <br>
   
@@ -38,13 +42,16 @@ It's BSD license allows to use, change, distribute with no restriction.
 Contributions and new feature discussions are highly appreciated.
 
 
-**The latest release version is tagged ARSDK3_version_3_9_2**. This version of the SDK is the one used in the 3.9 versions of FreeFlight 3. <br/>
+**The latest release version is tagged ARSDK3_version_3_10_0**. This version of the SDK is the one used in the latest versions of FreeFlight Pro and FreeFlight Mini. <br/>
 It is fully compatible with the versions :
 
 * 3.3.0 and later for the Bebop drone
-* 3.3.0 and later for the Bebop 2
+* 3.9.0 and later for the Bebop 2
+* 1.0.11 and later for the Mambo
+* 1.0.8 and later for the Swing
+* 1.0.3 and later for the Disco
 * 1.99.2 for the Rolling Spider
-* 2.1.55 for the Airbornes
+* 2.1.70 for the Airbornes
 * 1.99.0 for the Jumping Sumo
 * 2.1.53 for the Jumping Sumo Evos
 
