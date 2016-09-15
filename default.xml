@@ -37,6 +37,9 @@
 
  <project name="mavlink.git" path="packages/mavlink"/>
 
+ <project name="libpomp" path="packages/libpomp"/>
+ <project name="libmux" path="packages/libmux"/>
+
  <!-- Samples -->
  <project name="Samples" path="packages/Samples"/>
 
