@@ -36,17 +36,17 @@ The SDK provides the source code you need to do everything provided by the freef
 
 <br>
 
-**The easiest way to control a drone is to create a device controller thanks to the [libARController](https://github.com/Parrot-Developers/libARController)**. Samples which use this new API are available : [iOS Sample](https://github.com/Parrot-Developers/Samples/tree/master/iOS/SDKSample), [Android Sample](https://github.com/Parrot-Developers/Samples/tree/master/Android), [JSPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/Unix/JSPilotingNewAPI) and [BebopPilotingNewAPI](https://github.com/Parrot-Developers/Samples/tree/master/Unix/BebopPilotingNewAPI) for Unix.
+**The easiest way to control a drone is to create a device controller thanks to the [libARController](https://github.com/Parrot-Developers/libARController)**. Samples which use this new API are available : [iOS Sample](https://github.com/Parrot-Developers/Samples/tree/master/iOS/SDKSample), [Android Sample](https://github.com/Parrot-Developers/Samples/tree/master/Android), [JumpingSumoSample](https://github.com/Parrot-Developers/Samples/tree/master/Unix/JumpingSumoSample) and [BebopSample](https://github.com/Parrot-Developers/Samples/tree/master/Unix/BebopSample) for Unix.
 
 It's BSD license allows to use, change, distribute with no restriction.
 Contributions and new feature discussions are highly appreciated.
 
 
-**The latest release version is tagged ARSDK3_version_3_10_1**. This version of the SDK is the one used in the latest versions of FreeFlight Pro and FreeFlight Mini. <br/>
+**The latest release version is tagged `ARSDK3_version_3_11_0`**. This version of the SDK is the one used in the latest versions of FreeFlight Pro and FreeFlight Mini. <br/>
 It is fully compatible with the versions :
 
 * 3.3.0 and later for the Bebop drone
-* 3.9.0 and later for the Bebop 2
+* 4.0.3 and later for the Bebop 2
 * 1.0.11 and later for the Mambo
 * 1.0.8 and later for the Swing
 * 1.0.3 and later for the Disco
@@ -57,7 +57,7 @@ It is fully compatible with the versions :
 
 Usage
 -------------
-Please read [the install documentation](http://developer.parrot.com/docs/bebop/#go-deeper)
+Please read [the install documentation](http://developer.parrot.com/docs/SDK3/#go-deeper)
 
 Questions
 ----
