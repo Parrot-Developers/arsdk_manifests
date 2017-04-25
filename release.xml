@@ -4,11 +4,11 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="ARSDK3" path="packages/ARSDK3" revision="861783daed700a1dac0a4d53fdcfc43cc9f0bc4f"/>
+  <project name="ARSDK3" path="packages/ARSDK3" revision="33c950338c4c2d3b206f9b42bf8e0a179e049b0b"/>
   <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="3f75fd8f4f034767758293c14b9e016a24578aed"/>
   <project name="ARSDKTools" path="packages/ARSDKTools" revision="2a53b9be8239e44287bf8285be539ef33fa30cf9"/>
-  <project name="Alchemy" path="build/alchemy" revision="07b0b04ab4dffe42179b02d4f3198f69bd0814b1"/>
-  <project name="Samples" path="packages/Samples" revision="ec2a69acb8241c029cf7494ac773350983009313"/>
+  <project name="Alchemy" path="build/alchemy" revision="6c81611240acd48d5afd7d6aca6db374680cb1f1"/>
+  <project name="Samples" path="packages/Samples" revision="db93f1315d70a5f0df3027c853e32b76df5f45b0"/>
   <project name="arsdk-xml" path="packages/arsdk-xml" revision="6344f221c1759d8a437e299b84ee48eb05d52061"/>
   <project name="arsdk_products" path="products/arsdk" revision="7ed303e8a6ea299dfce6f30b1a0f6f7ce002a8db"/>
   <project name="dragon_build" path="build/dragon_build" revision="ecd4d57f3da5bb7623aa9d92f1c4e6ffd85dfa62">
@@ -16,7 +16,7 @@
     <linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
   </project>
   <project name="libARCommands" path="packages/libARCommands" revision="06be888a35d7148ef038832eb9f0066dfe89316a"/>
-  <project name="libARController" path="packages/libARController" revision="ccb144f62f6d722aab8f082a821823b4439b72bc"/>
+  <project name="libARController" path="packages/libARController" revision="be96ce4bca1590040a443618598b54f3d36c826a"/>
   <project name="libARDataTransfer" path="packages/libARDataTransfer" revision="5e1ac3519a7b17915f6175952c5619765b2a4552"/>
   <project name="libARDiscovery" path="packages/libARDiscovery" revision="70166e91609820c23776ee97253007bde4a4f096"/>
   <project name="libARMavlink" path="packages/libARMavlink" revision="9c4dcbf9ef36ced01882388b3b87976c7ee5c249"/>

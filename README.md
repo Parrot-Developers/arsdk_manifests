@@ -42,7 +42,7 @@ It's BSD license allows to use, change, distribute with no restriction.
 Contributions and new feature discussions are highly appreciated.
 
 
-**The latest release version is tagged `ARSDK3_version_3_12_0`**. This version of the SDK is the one used in the latest versions of FreeFlight Pro and FreeFlight Mini. <br/>
+**The latest release version is tagged `ARSDK3_version_3_12_1`**. This version of the SDK is the one used in the latest versions of FreeFlight Pro and FreeFlight Mini. <br/>
 It is fully compatible with the versions :
 
 * 4.0.4 and later for the Bebop drone
