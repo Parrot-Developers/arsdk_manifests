@@ -9,6 +9,7 @@
     <linkfile src="root-build.sh" dest="build.sh"/>
     <linkfile src="root-track-branch.sh" dest="track-branch.sh"/>
  </project>
+ <project name="apps_tools" path="build/apps_tools"/>
  <project name="Alchemy" path="build/alchemy"/>
 
  <!-- products  -->
