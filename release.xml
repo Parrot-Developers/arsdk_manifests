@@ -4,11 +4,11 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="ARSDK3" path="packages/ARSDK3" revision="7d6b3541c4ef440d48e1a7b71cab27a40fdea449"/>
+  <project name="ARSDK3" path="packages/ARSDK3" revision="c8adeadaea90d020086a81cbbcf39a48c20c37a6"/>
   <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="3f75fd8f4f034767758293c14b9e016a24578aed"/>
   <project name="ARSDKTools" path="packages/ARSDKTools" revision="27458790276d8086a948cdbacdc95f9594472b47"/>
   <project name="Alchemy" path="build/alchemy" revision="6c81611240acd48d5afd7d6aca6db374680cb1f1"/>
-  <project name="Samples" path="packages/Samples" revision="b0e3a5b3029f7bf8494cf0e777ca7572c2d72ed2"/>
+  <project name="Samples" path="packages/Samples" revision="a928eb33ced9e64339f95070e69a7279885acdd9"/>
   <project name="apps_tools" path="build/apps_tools" revision="f867f2a85f28ad85fc286e57d18659b7d93c6fc0"/>
   <project name="arsdk-xml" path="packages/arsdk-xml" revision="59ab5236465b6230eda0c8987c6649c425b1dc47"/>
   <project name="arsdk_products" path="products/arsdk" revision="e10f85715d68a9c11bb6a2866479e8423d8b0029"/>
