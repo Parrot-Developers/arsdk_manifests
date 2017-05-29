@@ -4,13 +4,13 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="ARSDK3" path="packages/ARSDK3" revision="9d3fa0b930107c307aa9e571fe043221255371e9"/>
+  <project name="ARSDK3" path="packages/ARSDK3" revision="d5ec8ddeced780ca18aeedd41cffff0d2bbbf4f8"/>
   <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="3f75fd8f4f034767758293c14b9e016a24578aed"/>
   <project name="ARSDKTools" path="packages/ARSDKTools" revision="27458790276d8086a948cdbacdc95f9594472b47"/>
   <project name="Alchemy" path="build/alchemy" revision="6c81611240acd48d5afd7d6aca6db374680cb1f1"/>
-  <project name="Samples" path="packages/Samples" revision="d75fd3aa6da378cc2d7159243694d97d71563ccc"/>
+  <project name="Samples" path="packages/Samples" revision="9182b5d57b23795e2fa8c476ba2d5fa96e71215a"/>
   <project name="apps_tools" path="build/apps_tools" revision="f867f2a85f28ad85fc286e57d18659b7d93c6fc0"/>
-  <project name="arsdk-xml" path="packages/arsdk-xml" revision="59ab5236465b6230eda0c8987c6649c425b1dc47"/>
+  <project name="arsdk-xml" path="packages/arsdk-xml" revision="ab28dab91845cd36c4d7002b55f70805deaff3c8"/>
   <project name="arsdk_products" path="products/arsdk" revision="e10f85715d68a9c11bb6a2866479e8423d8b0029"/>
   <project name="dragon_build" path="build/dragon_build" revision="783b54065f1e8d16099bd15eaf85b84f245a210d">
     <linkfile dest="build.sh" src="root-build.sh"/>
