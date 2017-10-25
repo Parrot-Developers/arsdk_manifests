@@ -4,32 +4,38 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="ARSDK3" path="packages/ARSDK3" revision="81dad27ca23880fcee94ab3aae51192c7793bfbe"/>
-  <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="3f75fd8f4f034767758293c14b9e016a24578aed"/>
-  <project name="ARSDKTools" path="packages/ARSDKTools" revision="3ef52da67513d4a1261f99b2bfc39433f3c70252"/>
-  <project name="Alchemy" path="build/alchemy" revision="6c81611240acd48d5afd7d6aca6db374680cb1f1"/>
-  <project name="Samples" path="packages/Samples" revision="f12a23631ba63ae98ab8a774d21cf08f4691244f"/>
-  <project name="apps_tools" path="build/apps_tools" revision="f867f2a85f28ad85fc286e57d18659b7d93c6fc0"/>
-  <project name="arsdk-xml" path="packages/arsdk-xml" revision="ab28dab91845cd36c4d7002b55f70805deaff3c8"/>
-  <project name="arsdk_products" path="products/arsdk" revision="e10f85715d68a9c11bb6a2866479e8423d8b0029"/>
-  <project name="dragon_build" path="build/dragon_build" revision="783b54065f1e8d16099bd15eaf85b84f245a210d">
+  <project name="ARSDK3" path="packages/ARSDK3" revision="a02d5765b4ed73cc2bd6b42c3acdace09e107b20"/>
+  <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="413c29657c8311719be2557780c0181a38d4b420"/>
+  <project name="ARSDKTools" path="packages/ARSDKTools" revision="12b3261e23b356fdf60ee9e69fc4e9f960819918"/>
+  <project name="Alchemy" path="build/alchemy" revision="d51bfa7876e499f8999e5568446a35a6e910431a"/>
+  <project name="Samples" path="packages/Samples" revision="96858c8bf4e85e70aed9b292a441d3a541c1bd2e"/>
+  <project name="apps_tools" path="build/apps_tools" revision="3487064b9439485ff6ff2eae0a53cbd71feca0c6"/>
+  <project name="arsdk-xml" path="packages/arsdk-xml" revision="f241e26d3f0a95b014e6948a23500ddd855b62c2"/>
+  <project name="arsdk_products" path="products/arsdk" revision="73242338f182661fc24bcbea623dfc10379e455f"/>
+  <project name="dragon_build" path="build/dragon_build" revision="aeba566e2d7389106ba95cc5f91251507a52bef4">
     <linkfile dest="build.sh" src="root-build.sh"/>
     <linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
   </project>
-  <project name="libARCommands" path="packages/libARCommands" revision="6268375bb53dd68b64c118b5de97c50302554470"/>
-  <project name="libARController" path="packages/libARController" revision="1844197b584a66d1a017d061aa30b68160de7c68"/>
+  <project name="libARCommands" path="packages/libARCommands" revision="d25b24e3d37c4fdf092d83196f575baf17420652"/>
+  <project name="libARController" path="packages/libARController" revision="7ab8a4b1b80b7e4baa211bb0892fbe200f82098b"/>
   <project name="libARDataTransfer" path="packages/libARDataTransfer" revision="5e1ac3519a7b17915f6175952c5619765b2a4552"/>
-  <project name="libARDiscovery" path="packages/libARDiscovery" revision="2eb8441bd1834928cd77b3ce4f4dddee4434f024"/>
+  <project name="libARDiscovery" path="packages/libARDiscovery" revision="415b65a9e48ea9d548042d43202d3a142aa10a3d"/>
   <project name="libARMavlink" path="packages/libARMavlink" revision="7c0f5f5d41ac962de64a438cf49cfb54b0e80be9"/>
-  <project name="libARMedia" path="packages/libARMedia" revision="57e8b59787e47d62c95c438bb3ad4a22671a9d56"/>
-  <project name="libARNetwork" path="packages/libARNetwork" revision="b46eddf2be23b814cba12545cd498e552a07e5cf"/>
-  <project name="libARNetworkAL" path="packages/libARNetworkAL" revision="d5167aaa21b6024f0b6f3c6aec0e057cdb0c280b"/>
-  <project name="libARSAL" path="packages/libARSAL" revision="06df31ee5422c11f0a7d7c70ab6de8a1ed4ffbe7"/>
-  <project name="libARStream" path="packages/libARStream" revision="af5ab82a1b05d22d38fb47f2da45b82146642322"/>
-  <project name="libARStream2" path="packages/libARStream2" revision="9d861718e562850208358641a31c1428b311fb2f"/>
-  <project name="libARUpdater" path="packages/libARUpdater" revision="9377dfc4c65e0f8ca445fb933a2aab274900a3e9"/>
-  <project name="libARUtils" path="packages/libARUtils" revision="320cd73fb8f1fa42cca0e8878856e022b15682fb"/>
-  <project name="libmux" path="packages/libmux" revision="f3d701716cb7df1fe87e01ad1b02c45e1355d31e"/>
-  <project name="libpomp" path="packages/libpomp" revision="27cfbcd88bc14e8f828aa99bc51f4de49e47c21c"/>
+  <project name="libARMedia" path="packages/libARMedia" revision="ffac8b08137414ecb5a7bcca091b460f8f4205bc"/>
+  <project name="libARNetwork" path="packages/libARNetwork" revision="2acc72543820e573dbd73fdbe020f4101335d5b2"/>
+  <project name="libARNetworkAL" path="packages/libARNetworkAL" revision="4266b1e6ebc943159aa49c385adc04b4e975a08d"/>
+  <project name="libARSAL" path="packages/libARSAL" revision="22e1f6b12aa6e46b26a75b768fd224c29ee00326"/>
+  <project name="libARStream" path="packages/libARStream" revision="34a4b21ee105237b52e372eba53c5d309df79f8c"/>
+  <project name="libARStream2" path="packages/libARStream2" revision="4a22e26e52d22526e041588ebf63fb5c6805e124"/>
+  <project name="libARUpdater" path="packages/libARUpdater" revision="e866097db309710b6f273b23accbe78daa7d655d"/>
+  <project name="libARUtils" path="packages/libARUtils" revision="4d79ae31d593037ee918dabba260c0586151af02"/>
+  <project name="libfutils" path="packages/libfutils" revision="99273914ba908c725450ebc753dbce1d68e836c2"/>
+  <project name="libmux" path="packages/libmux" revision="4455b3bada76a67dbba60df1ee497d400d1361e4"/>
+  <project name="libpomp" path="packages/libpomp" revision="126b773aef614a3bf9316cf6921c504fddf7928f"/>
+  <project name="libpuf" path="packages/libpuf" revision="08cfa7ef8db86bfa555d1536b1ef71cd884b5809"/>
+  <project name="librtsp" path="packages/librtsp" revision="b9419acd191f6a9885f5dab13634e0825cd55931"/>
+  <project name="libsdp" path="packages/libsdp" revision="ab5404739bebbc7b775c778b7df69f40dcc2fbe6"/>
+  <project name="libtar" path="packages/libtar" revision="da7b886f0af9742653a176006c782af75f2164dd"/>
   <project name="mavlink.git" path="packages/mavlink" revision="ed9b5620b539729d0fd3cf1187e1d66047cbb574"/>
+  <project name="ulog" path="packages/ulog" revision="8cc69a2ee465bab5ec219647a1eeca38c0cfadb1"/>
 </manifest>
