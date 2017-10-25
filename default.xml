@@ -17,6 +17,7 @@
 
  <!-- External -->
  <project name="ARSDKTools" path="packages/ARSDKTools"/>
+ <project name="libtar" path="packages/libtar"/>
 
  <!-- ARSDK -->
  <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils"/>
@@ -40,6 +41,13 @@
 
  <project name="libpomp" path="packages/libpomp"/>
  <project name="libmux" path="packages/libmux"/>
+ <project name="libpuf" path="packages/libpuf"/>
+ <project name="libfutils" path="packages/libfutils"/>
+ <project name="ulog" path="packages/ulog"/>
+
+ <!-- Video Mambo -->
+ <project name="librtsp" path="packages/librtsp"/>
+ <project name="libsdp" path="packages/libsdp"/>
 
  <!-- Samples -->
  <project name="Samples" path="packages/Samples"/>
