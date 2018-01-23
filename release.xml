@@ -4,11 +4,11 @@
   
   <default remote="github" revision="master" sync-j="4"/>
   
-  <project name="ARSDK3" path="packages/ARSDK3" revision="a02d5765b4ed73cc2bd6b42c3acdace09e107b20"/>
+  <project name="ARSDK3" path="packages/ARSDK3" revision="1fa9068315a46e5aba7aaa072febbc2ab49117fb"/>
   <project name="ARSDKBuildUtils" path="packages/ARSDKBuildUtils" revision="413c29657c8311719be2557780c0181a38d4b420"/>
   <project name="ARSDKTools" path="packages/ARSDKTools" revision="12b3261e23b356fdf60ee9e69fc4e9f960819918"/>
   <project name="Alchemy" path="build/alchemy" revision="d51bfa7876e499f8999e5568446a35a6e910431a"/>
-  <project name="Samples" path="packages/Samples" revision="96858c8bf4e85e70aed9b292a441d3a541c1bd2e"/>
+  <project name="Samples" path="packages/Samples" revision="88f9c3d5af0c4fed00607687d396ec9634803eda"/>
   <project name="apps_tools" path="build/apps_tools" revision="3487064b9439485ff6ff2eae0a53cbd71feca0c6"/>
   <project name="arsdk-xml" path="packages/arsdk-xml" revision="f241e26d3f0a95b014e6948a23500ddd855b62c2"/>
   <project name="arsdk_products" path="products/arsdk" revision="73242338f182661fc24bcbea623dfc10379e455f"/>
@@ -17,9 +17,9 @@
     <linkfile dest="track-branch.sh" src="root-track-branch.sh"/>
   </project>
   <project name="libARCommands" path="packages/libARCommands" revision="d25b24e3d37c4fdf092d83196f575baf17420652"/>
-  <project name="libARController" path="packages/libARController" revision="7ab8a4b1b80b7e4baa211bb0892fbe200f82098b"/>
+  <project name="libARController" path="packages/libARController" revision="19a0854b4fb05a57052d33cbc55a24b31edcf8b8"/>
   <project name="libARDataTransfer" path="packages/libARDataTransfer" revision="5e1ac3519a7b17915f6175952c5619765b2a4552"/>
-  <project name="libARDiscovery" path="packages/libARDiscovery" revision="415b65a9e48ea9d548042d43202d3a142aa10a3d"/>
+  <project name="libARDiscovery" path="packages/libARDiscovery" revision="05555aee4b38e91ab1dd98f6b0c35d1a71acdad2"/>
   <project name="libARMavlink" path="packages/libARMavlink" revision="7c0f5f5d41ac962de64a438cf49cfb54b0e80be9"/>
   <project name="libARMedia" path="packages/libARMedia" revision="ffac8b08137414ecb5a7bcca091b460f8f4205bc"/>
   <project name="libARNetwork" path="packages/libARNetwork" revision="2acc72543820e573dbd73fdbe020f4101335d5b2"/>
